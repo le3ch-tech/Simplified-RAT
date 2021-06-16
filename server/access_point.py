@@ -40,9 +40,9 @@ class main:
             msg = client_socket.recv(4096)
             print(msg.decode("UTF-8"))
             
-if __name__ == '__main__':
+'''if __name__ == '__main__':
     let = main()
     let.operating_system()
     let.start_server()
     let.connections()
-    let.message()    
+    let.message()    '''
