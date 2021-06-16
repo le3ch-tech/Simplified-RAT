@@ -39,4 +39,9 @@ except ModuleNotFoundError:
             sleep(3)
             exit()
             
+class main_:
+    def gui():
+        system.os(main.operating_system())
+        style.banner("Simplifed RAT")
+            
             
