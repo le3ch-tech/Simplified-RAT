@@ -1,5 +1,5 @@
 git add *
-sleep 2
+sleep 5
 git commit -m "Files"
-sleep 2
+sleep 3
 git push origin main
