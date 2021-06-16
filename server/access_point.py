@@ -4,11 +4,13 @@ from os import system
 
 
 class main:
-    def operating_system():
+    def clear_():
         if os.name == 'nt':
-            system = 'clr'
+            clear_ = 'clr'
+            return clear_
         else:
-            system = 'clear'
+            clear_ = 'clear'
+            return clear_
 
     def start_server():
         global server_socket
@@ -20,7 +22,7 @@ class main:
         server_socket.bind((host, port))
         server_socket.listen(max_connections_allowed)
         
-        os.system(system)
+        os.system(clear_())
     
     def connections():
         global client_socket
@@ -31,7 +33,7 @@ class main:
         global msg
         msg = input()
         if msg == 'help':
-            system.os(operating_system)
+            system.os(clear_())
             print("{}HELP{}".format(6*'*'), (6*'*'))
             print("Test Connection: 'test'")
         else:

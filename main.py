@@ -41,7 +41,7 @@ except ModuleNotFoundError:
             
 class main_:
     def gui():
-        system.os(main.operating_system())
+        system.os(main.clear_())
         style.banner("Simplifed RAT")
             
             
