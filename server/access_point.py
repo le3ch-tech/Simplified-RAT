@@ -4,7 +4,6 @@ from os import system
 
 
 class main:
-
     def operating_system():
         if os.name == 'nt':
             system = 'clr'
